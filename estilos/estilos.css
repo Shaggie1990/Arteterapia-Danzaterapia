@@ -22,7 +22,7 @@ header{
 
 main{
     width: 100%;
-    background-color: rgba(255, 127, 80, 0.712);
+    background-color: rgba(255, 68, 0, 0.712);
     background-image: url(../imagenes/main.svg);
     display: flex;
     flex-direction: column;
