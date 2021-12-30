@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00aa7d;
+    
+    
+}
+
+main{
+    width: 100%;
+    background-color: rgba(255, 127, 80, 0.712);
+    background-image: url(../imagenes/main.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+
+nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    display: inline;
+    flex-wrap: wrap ;
+    background-color: #ff7600;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 5px;
+
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+
+}
+nav a:hover{
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+p span{
+    float: left;
+    width: 20%;
+    height: 60px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+
+.logo{
+    width:20%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.contenedor__logo{
+    margin-left:20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Comforter Brush';
+    font-family: 'PT Serif', serif;
+}
+
+
+.fotodeperil{
+    height: 100px;
+    width: 100px;
+    background-position-x: center;
+}
+
+.btn1{
+    background-color: white;
+    border: 2px solid rgb(204, 204, 204);
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+h1{
+    padding: 10px;
+    text-align: center;
+    background-position: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+h2{
+    padding: 10px;
+    text-align: center;
+    background-position: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+h3{
+    padding: 10px;
+    text-align: center;
+    background-position: center;
+    text-transform: uppercase;
+    font-weight: bold;;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* seccion index - inicio */
+
+.sec_index{
+    width: 100%;
+    background-image: url(../imagenes/color-index.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.contenedor_sec{
+    text-align: center;
+}
+
+.contenedor_sec h3{
+    padding: 10px;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.contenedor_sec p{
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+
+.btnquees{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.btnquees:hover{
+    background-color: #ff7600;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.contenedorindex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width:100%;
+}
+
+.contenedorindex-cardTalleresAdultos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardTalleresAdultos{  
+    height: 300px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.cardTalleresAdultos .img{
+    background-image: url(/imagenes/Talleres.p.Adultos.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardTalleresAdultos h4{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.cardTalleresAdultos p{
+    text-align: center;
+    color: #fff;
+    padding: 10px; 
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.contenedorindex-cardTalleresNiños{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardTalleresNiños{  
+    height: 300px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.cardTalleresNiños .img{
+    background-image: url(/imagenes/Talleres.p.Niños.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardTalleresNiños h4{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.cardTalleresNiños p{
+    text-align: center;
+    color: #fff;
+    padding: 10px; 
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.contenedorindex-cardSesionesIndividuales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardSesionesIndividuales{  
+    height: 300px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.cardSesionesIndividuales .img{
+    background-image: url(/imagenes/Sesionesindividuales.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardSesionesIndividuales h4{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.cardSesionesIndividuales p{
+    text-align: center;
+    color: #fff;
+    padding: 10px; 
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.contenedorindex-cardTrabajoConEntidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardTrabajoConEntidades{  
+    height: 300px;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+}
+.cardTrabajoConEntidades .img{
+    background-image: url(/imagenes/TrabajoConEntidades.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.cardTrabajoConEntidades h4{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+.cardTrabajoConEntidades p{
+    text-align: center;
+    color: #fff;
+    padding: 10px; 
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    
+}
+
+/* seccion index  -  fin */
+
+
+/* seccion Talleres - inicio */
+
+.tallerestexto{
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+
+}
+
+.tallerestexto h2{
+    color: #fff;
+}
+
+.tallerestexto h3{
+    color: #fff;
+    background-color: #00aa7d;
+    border: 2px solid #000000;
+
+}
+    
+.tallerestexto p{
+    color: #fff;
+}
+
+.talleres__lista{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'PT Serif', serif;
+}
+
+.cuadrado{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    background-size: cover;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.contenedortalleres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width:100%;
+}
+
+.cardArteterapia{
+    background-color: rgb(0, 255, 221);
+    height: 300px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.cardArteterapia .img{
+    background-image: url(/imagenes/Arteterapia.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardArteterapia h4{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.cardArteterapia p{
+    text-align: center;
+    color: black;
+    padding: 10px; 
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'PT Serif', serif;
+}
+
+.cardDanzaterapia {
+    background-color: sandybrown;
+    height: 300px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardDanzaterapia .img{
+    background-image: url(/imagenes/Danzaterapia.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardDanzaterapia h4{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'PT Serif', serif;
+}
+
+.cardDanzaterapia p{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'PT Serif', serif;
+}
+
+
+.cardInteligenciaEmocional{
+    background-color: sandybrown;
+    height: 300px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 5px 5px 0 0;
+}
+.cardInteligenciaEmocional .img{
+    background-image: url(/imagenes/InteligenciaEmocional.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardInteligenciaEmocional h4{
+    text-align: center;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'PT Serif', serif;
+}
+
+.cardInteligenciaEmocional p{
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'PT Serif', serif;
+}
+
+
+/* seccion Talleres  -  fin */
+
+/* seccion Sesiones Individuales - inicio */
+.cajatrabajando{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajando{
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+}
+
+.trabajando p{
+    text-align: left;
+    margin-bottom: 10%;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.trabajando a{
+    text-decoration: none;
+    font-variant: small-caps;
+    border-radius: 2px;
+    padding: 5px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.btn1trabajando{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.btn1trabajando:hover{
+    background-color: #ff7600;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
+
+.cajaInd{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.acompañamiento{
+    width: 50%;
+    height: 70%;
+    padding: 10px;
+}
+
+.acompañamiento p{
+    text-align: left;
+    margin-bottom: 10%;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.Informacion{
+    min-height: 300px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.info{
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(43, 255, 0, 0.452);
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.info h4{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+.info img{
+    height: 100px;
+    width: auto;
+}
+.info p{
+    color: #fff;
+}
+/* seccion Sesiones Individuales  -  fin */
+
+
+
+/* seccion1 Sobre Mi - inicio */
+
+
+.sobremi{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sobremi h3{
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+
+}
+
+.sobremi p{
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.sobremi img{
+    border: 2px solid #000;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* seccion Sobre Mi  -  fin */
+
+/* seccion que es - inicio */
+
+.cajasec{
+    height: 150px;
+    width: 100%;
+    background-image: url(/imagenes/quees-arte-terapia.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_quees{
+    text-align: center;
+    background-position: center;
+    text-transform: uppercase;
+
+}
+
+.sec_quees h4{
+    text-align: center;   
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.sec_quees p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.cajaquees{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.quees{
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+}
+
+.quees h2{
+    text-align: center;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.quees p{
+    text-align: left;  
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.cajacomosetrbaja{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajacomosetrbaja{
+    width: 60%;
+    height: 80%;
+    padding: 10px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+
+.fundamentos{
+  
+    display: flex;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+/* seccion1 que es -  fin */
+
+/* seccion Galeria  -  iniciio */
+
+.galeria{
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "item1 item2 item3 item6"
+    "item1 item4 item5 item6"
+    "item7 item4 item8 item8";
+
+    grid-gap: 5px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.item{
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.item1{
+    grid-area: item1;
+    background-color: turquoise;
+    background-image: url(../imagenes/item1.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    grid-area: item2;
+    background-color: yellowgreen;
+    background-image: url(../imagenes/item2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item3{
+    grid-area: item3;
+    background-color: tomato;
+    background-image: url(../imagenes/item3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    grid-area: item4;
+    background-color: blue;
+    background-image: url(../imagenes/item4.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    grid-area: item5;
+    background-color: chocolate;
+    background-image: url(../imagenes/item5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6{
+    grid-area: item6;
+    background-color: darkgray;
+    background-image: url(../imagenes/item6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7{
+    grid-area: item7;
+    background-color: darkmagenta;
+    background-image: url(../imagenes/item7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8{
+    grid-area: item8;
+    background-color: rgba(177, 151, 151, 0.486);
+    background-image: url(../imagenes/item8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item:hover{
+    background-color: rgba(255, 0, 0, 0.486);
+    transform: scale(1.05);
+    transition: all 0.8s;
+}
+.gale h1{
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction:row;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 5px 5px 5px #00aa7d;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+.gale h1:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
+}
+
+/* seccion Galeria  -  fin */
+
+
+/* Footer -  Inicio */
+footer{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'PT Serif', serif;
+}
+
+.contacto{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+    color: #000;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form h3{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction:row;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 5px 5px 5px #00aa7d;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.contacto h3:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
+}
+
+input{
+    transition: all 2s;
+}
+
+input:focus{
+    font-size: 20px;
+    border: 5px dotted #ff7600;
+    color: #000;
+}
+
+input::placeholder{
+    color: #00aa7d;
+    font-size: 15px;
+}
+
+
+
+.map__lugar{
+    margin: 20px;
+    background-position: right;
+    font-size: 25px;
+    color: black;
+    font-family: 'PT Serif', serif;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+/* Footer -  fin */
+
+/* media queries galeria - inicio */
+
+
+
+@media only screen and (min-width:680px) and (max-width: 880px){
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 120px);
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:680px){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 120px);
+    }
+    .img6{
+        grid-row: 2/4;
+        grid-column: 3/4;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .galeria{
+        grid-template-rows: repeat(3, 120px);
+    }
+    
+    .item1{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        background-color: chartreuse;
+    }
+    
+    .item2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-color: crimson;
+    }
+    .item3{
+        grid-column: 3/5;
+        grid-row: 1/2;
+        background-color: chocolate;
+    }
+    .item4{
+        grid-column: 2/3;
+        grid-row: 2/4;
+        background-color: darkblue;
+    }
+    .item5{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background-color: darkgoldenrod;
+    }
+    
+    .item6{
+        grid-column: 4/5;
+        grid-row: 2/3;
+        background-color: darkgreen;
+    }
+    .item7{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-color: darkmagenta;
+    }
+    
+    .item8{
+        grid-column: 3/5;
+        grid-row: 3/4;
+        background-color: darkorange;
+    }   
+}
+/* media queries galeria - fin */
+
+

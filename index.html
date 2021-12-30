@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./estilos/normalize.css">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>Arteterapia</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor__logo">
+            <img class="logo" src="./imagenes/Logo.png" alt="logo">
+            <p><span>Arteterapia Danzaterapia</span></p>
+            <ul class="posision" style="text-align: center;"></ul>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a class="activo" href="index.html">Home</a></li>
+                <li><a href="./secciones/talleres.html">Talleres</a></li>
+                <li><a href="./secciones/sesionesindividuales.html">Sesiones Individuales</a></li>
+                <li><a href="./secciones/quees.html">Quees</a></li>
+                <li><a href="./secciones/galeria.html">Galeria</a></li>
+                <li><a href="./secciones/sobremi.html">Sobre Mi</a></li>
+                <li><a href="./secciones/contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h1>Arteterapia</h1>
+        <section class="contenedorindex">
+
+            <div class="cardTalleresAdultos">
+                <div class="img"></div>
+                <h4>TalleresAdultos</h4>
+                <p>Talleres grupales de arte y arteterapia.</p>
+
+            </div>
+
+            <div class="cardTalleresNiños">
+                <div class="img"></div>
+                <h4>TalleresNiños</h4>
+                <p>Talleres de arte y creatividad para niños/as de infantil y primaria.</p>
+
+            </div>
+
+            <div class="cardSesionesIndividuales">
+                <div class="img"></div>
+                <h4>SesionesIndividuales</h4>
+                <p>Modalidad online y presencial. Conoce en qué consiste y cómo se trabaja.</p>
+
+            </div>
+
+            <div class="cardTrabajoConEntidades">
+                <div class="img"></div>
+                <h4>TrabajoConEntidades</h4>
+                <p>Actividades a medida de arte y arteterapia para distintos colectivos.</p>
+            </div>
+
+        </section>
+
+
+        <section class="sec_index" id="sec_index">
+            <div class="contenedor_sec">
+                <h3>ARTETERAPIA DANZATERAPIA</h3>
+                <p>En que consiste, beneficios, como se trabaja, para quien...</p>
+                <a class="btnquees" href="./secciones/quees.html">Que es la Arteterapia</a>
+            </div>
+        </section>
+        <footer>
+            <div class="contacto">
+                <form action="enviar.php" method="post" enctype="applicacion/x-ww-form-urlencoded">
+                    <h3>CONTACTANOS</h3>
+                    nombre: <input type="text" required> <br>
+                    email: <input type="email" required> <br>
+                    celular: <input type="cel" required> <br>
+                    consulta <br>
+
+                    <textarea name="areadetexto" id="" cols="30" rows="5"
+                        placeholder="escribe tu comentario"></textarea> <br>
+                    <input type="submit" value="enviar">
+            </div>
+            <div class="map__lugar">
+                <p class="map"> Donde Nos Encontras </p>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13154.45262036058!2d-58.50503731801042!3d-34.48733658936246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1a63a24c107%3A0x6a08bacc531e199b!2sVZ%20Mart%C3%ADnez!5e0!3m2!1ses!2sar!4v1638879758974!5m2!1ses!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!--<<div class="redes">
+              <h2>otras vias de contactos</h2>
+              <ul> 
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> </a></li>
+                </ul>
+          </div>-->
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>
